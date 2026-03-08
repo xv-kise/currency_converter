@@ -7,6 +7,7 @@
 <body>
     <div id="main">
     <h1>¢urr€₦¢¥ ¢¤₦v€r₮€r</h1>
+    <small>作者: <a href="https://github.com/xv-kise">xv-kise</a></small>
     <p>
     アルファベットの文を似た形の通貨記号にできるだけ変換します<br>
     例: "Hello, World!" → "H€₺₺¤, ₩¤r₺₫!.<br>
@@ -14,16 +15,15 @@
     </p>
     
     <p>
-    <h2>変換前</h2><br>
+    <h2>変換前</h2>
     <textarea cols="70" rows="15" type="text" id="textbox1"></textarea><br>
     <button id="ok_button" type="button" onclick="convert_and_display()"><b>変換</b></button>
     </p>
-
+    <br>
     <p id="resultp">
     <h2>変換後</h2>
-    <div id="result">
-        ...
-        </div>
+    <textarea cols="70" rows="15" type="text" id="resultbox" readonly></textarea><br>
+    <div id="result"></div>
     </p>
     </div>
     <script src="convert_currency.js"></script>
